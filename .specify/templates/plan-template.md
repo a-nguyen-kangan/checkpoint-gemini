@@ -31,7 +31,7 @@
 
 *GATE: Must pass before Phase 0 research. Re-check after Phase 1 design.*
 
-[Gates determined based on constitution file]
+Ensure the plan adheres to the project's core principles as defined in `.specify/memory/constitution.md`. Plans should explicitly consider and align with principles such as Modularity, Clear Interfaces, Test-Driven Development, Continuous Integration & Deployment, and Documentation & Readability.
 
 ## Project Structure
 
