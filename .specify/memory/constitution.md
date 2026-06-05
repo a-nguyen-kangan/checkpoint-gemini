@@ -1,13 +1,14 @@
 <!--
-Version change: 1.0.0 (initial creation)
+Version change: 1.0.1 (patch increment for new principle)
 List of modified principles:
   - PRINCIPLE_1_NAME -> Modularity
   - PRINCIPLE_2_NAME -> Clear Interfaces
   - PRINCIPLE_3_NAME -> Test-Driven Development (NON-NEGOTIABLE)
   - PRINCIPLE_4_NAME -> Continuous Integration & Deployment
   - PRINCIPLE_5_NAME -> Documentation & Readability
-Added sections: None (placeholders filled)
-Removed sections: None (placeholders filled)
+  - NEW -> User Approval for Commits/Pushes
+Added sections: None
+Removed sections: None
 Templates requiring updates:
   - .specify/templates/plan-template.md: ✅ updated
   - .specify/templates/spec-template.md: ✅ updated (no direct updates, but constitution principles apply)
@@ -40,6 +41,9 @@ All changes are subject to automated build, test, and deployment processes. A ro
 <!-- Example: V. Observability, VI. Versioning & Breaking Changes, VII. Simplicity -->
 Code must be self-documenting where possible, complemented by clear and concise external documentation for complex logic, APIs, and architectural decisions. Readability is paramount, facilitating understanding and collaboration among team members.
 
+### User Approval for Commits/Pushes
+All code commits and pushes to shared repositories MUST be explicitly approved by the user. No changes to the codebase should be committed or pushed without prior user consent, ensuring alignment with project goals and preventing unintended modifications.
+
 ## Development Standards
 <!-- Example: Additional Constraints, Security Requirements, Performance Standards, etc. -->
 
@@ -55,5 +59,5 @@ All code changes require peer review before merging. Reviews focus on correctnes
 
 This Constitution outlines the fundamental principles guiding project development. Amendments require a documented proposal, team consensus, and a clear migration plan. Compliance is verified during code reviews and continuous integration.
 
-**Version**: 1.0.0 | **Ratified**: 2026-06-05 | **Last Amended**: 2026-06-05
+**Version**: 1.0.1 | **Ratified**: 2026-06-05 | **Last Amended**: 2026-06-05
 <!-- Example: Version: 2.1.1 | Ratified: 2025-06-13 | Last Amended: 2025-07-16 -->
