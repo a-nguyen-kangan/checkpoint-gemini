@@ -1,12 +1,13 @@
 <!--
-Version change: 1.0.1 (patch increment for new principle)
+Version change: 1.0.2 (patch increment for new principle)
 List of modified principles:
   - PRINCIPLE_1_NAME -> Modularity
   - PRINCIPLE_2_NAME -> Clear Interfaces
   - PRINCIPLE_3_NAME -> Test-Driven Development (NON-NEGOTIABLE)
   - PRINCIPLE_4_NAME -> Continuous Integration & Deployment
   - PRINCIPLE_5_NAME -> Documentation & Readability
-  - NEW -> User Approval for Commits/Pushes
+  - User Approval for Commits/Pushes
+  - NEW -> Branching and Merging Strategy
 Added sections: None
 Removed sections: None
 Templates requiring updates:
@@ -44,6 +45,9 @@ Code must be self-documenting where possible, complemented by clear and concise 
 ### User Approval for Commits/Pushes
 All code commits and pushes to shared repositories MUST be explicitly approved by the user. No changes to the codebase should be committed or pushed without prior user consent, ensuring alignment with project goals and preventing unintended modifications.
 
+### Branching and Merging Strategy
+Development MUST stem from a `dev` branch. Each new task MUST be developed in a dedicated feature branch originating from `dev`. Merging of feature branches into `dev` (or any other stable branch) MUST occur only after successful testing via a pull request and explicit approval. All tasks MUST have clearly defined acceptance criteria.
+
 ## Development Standards
 <!-- Example: Additional Constraints, Security Requirements, Performance Standards, etc. -->
 
@@ -59,5 +63,5 @@ All code changes require peer review before merging. Reviews focus on correctnes
 
 This Constitution outlines the fundamental principles guiding project development. Amendments require a documented proposal, team consensus, and a clear migration plan. Compliance is verified during code reviews and continuous integration.
 
-**Version**: 1.0.1 | **Ratified**: 2026-06-05 | **Last Amended**: 2026-06-05
+**Version**: 1.0.2 | **Ratified**: 2026-06-05 | **Last Amended**: 2026-06-05
 <!-- Example: Version: 2.1.1 | Ratified: 2025-06-13 | Last Amended: 2025-07-16 -->
