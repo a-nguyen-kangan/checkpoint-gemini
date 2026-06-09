@@ -13,7 +13,7 @@
 - **FR-002**: System MUST allow teachers to create, edit and delete tasks with a title, due date, associated subject and a link to description.
 - **FR-003**: System MUST allow admin and teachers to add students to courses and subjects
 - **FR-004**: System MUST allow teachers to mark tasks as completed.
-- **FR-005**: System MUST validate that due dates are not in the past during task creation.
+- **FR-005**: System MUST validate due dates during task creation and display a warning if a past due date is selected, but still allow task creation.
 - **FR-006**: System MUST allow students to view their tasks organized by subject.
 - **FR-007**: System MUST allow students to view their progress in a subject according to the amount of tasks completed vs total tasks.
 - **FR-008:** System MUST allow teachers to view a dashboard of courses and subjects with the number of tasks and completion rates for each subject.
@@ -62,7 +62,7 @@ As a Teacher, I want to create tasks for my subjects, so that students know what
 **Acceptance Scenarios**:
 
 1. **Given** a teacher is on their dashboard, **When** they create a task with a title, due date, description link, and select one of their subjects, **Then** that task is created and linked to the subject.
-2. **Given** a teacher is creating a task, **When** they select a past due date, **Then** the system should display an error message and prevent task creation.
+2. **Given** a teacher is creating a task, **When** they select a past due date, **Then** the system should display a warning message but allow the task to be created.
 
 ---
 

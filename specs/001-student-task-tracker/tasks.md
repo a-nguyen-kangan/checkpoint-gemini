@@ -26,7 +26,7 @@ This document outlines the step-by-step implementation plan for the Student Task
 - [ ] [T-012] Build admin dashboard UI for managing courses, subjects, and users.
 
 ## Phase 5: Teacher Functionality (P1)
-- [ ] [T-013] Implement `createTask` server action (with due date validation).
+- [ ] [T-013] Implement `createTask` server action (with warning for past due dates).
 - [ ] [T-014] Implement `enrollStudent` server action.
 - [ ] [T-015] Build teacher task creation form.
 
